@@ -1,0 +1,19 @@
+{
+  "server": "0.0.0.0:13141",
+  "users": {
+    "528da1d8-00a0-d3e0-0d7c-a5d296e735c7": "XXZZea",
+    "1c895a0e-94c6-bb5a-8b3c-a6c9e602cf39": "XXZZea"
+  },
+  "certificate": "/opt/tuic/fullchain.pem",
+  "private_key": "/opt/tuic/privkey.pem",
+  "congestion_control": "cubic",
+  "alpn": ["h3", "spdy/3.1"],
+  "udp_relay_ipv6": true,
+  "zero_rtt_handshake": true,
+  "auth_timeout": "3s",
+  "max_idle_time": "10s",
+  "max_external_packet_size": 1500,
+  "gc_interval": "3s",
+  "gc_lifetime": "15s",
+  "log_level": "warn"
+}
