@@ -1,5 +1,5 @@
 {
-  "server": "0.0.0.0:13141",
+  "server": "[::]:13141",
   "users": {
     "528da1d8-00a0-d3e0-0d7c-a5d296e735c7": "XXZZea",
     "1c895a0e-94c6-bb5a-8b3c-a6c9e602cf39": "XXZZea"
